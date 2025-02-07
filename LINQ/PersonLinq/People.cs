@@ -30,7 +30,7 @@ namespace LINQ.PersonLinq
 
             foreach (var person in adults)
             {
-                Console.WriteLine($"person.Name}, Age: {person.Age}");
+                Console.WriteLine($"{person.Name}, Age: {person.Age}");
             }
             Console.WriteLine();
 
@@ -49,7 +49,7 @@ namespace LINQ.PersonLinq
             Console.WriteLine("Ordered people:");
             foreach (var person in orderedPeople)
             {
-                Console.WriteLine($"person.Name}, Age: {person.Age}");
+                Console.WriteLine($"{person.Name}, Age: {person.Age}");
             }
             Console.WriteLine();
 
